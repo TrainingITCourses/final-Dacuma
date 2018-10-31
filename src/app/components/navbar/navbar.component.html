@@ -1,7 +1,7 @@
 <div class="nav-wrapper">
-  <div class="version"><button (click)="checkUpdate()">Check Version (v.{{version}})</button></div>
   <div class="container">
     <h2 class="title">{{(global$ | async).title}}</h2>
     <div class="button" *ngIf="!isRoot"><button (click)="back()">← Volver</button></div>
   </div>
+  <div class="version"><button (click)="checkUpdate()">Check Version (v.{{version}})</button></div>
 </div>

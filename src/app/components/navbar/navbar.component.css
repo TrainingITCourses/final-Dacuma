@@ -38,6 +38,8 @@
 .button button:focus {outline:0;}
 
 .version{
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     margin-right: 40px;
 }
