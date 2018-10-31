@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    padding:0px;
+    margin:0px;
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px; 
+    margin: auto;
+    padding: 15px;
+    overflow: auto;
+    height: 75%;
+}
+
+.card-title{
+    position: -webkit-sticky;
+    position: sticky;
+    top:-15px;
+    background-color: #fff;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.main-container{
+    padding-bottom: 45px;
+}
+
+.shadow{
+    -webkit-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 45px 0px rgba(78, 73, 73, 0.75);
+}

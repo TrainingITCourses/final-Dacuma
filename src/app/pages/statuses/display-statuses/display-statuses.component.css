@@ -1,0 +1,35 @@
+.card{
+    width: 350px;
+    margin: 1%;
+    float: left;
+    border: 1px solid rgb(10, 73, 124);
+    overflow: hidden;
+}
+
+.card .title{
+    width: 100%;
+    background-color: rgb(10, 73, 124);
+    color: #fff;
+    padding: 8px;
+    margin-top: 0px;
+    font-size: 130%;
+}
+
+.card .description{
+    font-style: italic;
+    padding: 8px;
+}
+
+.card input{
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .card{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+    }
+  }

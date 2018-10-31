@@ -1,0 +1,30 @@
+.img-wrapper{
+    width: 250px;
+    float: left;
+    margin: 0px 40px;
+    min-height: 250px;
+}
+
+img{
+    width: 100%;
+}
+
+h2, p{
+    display: inline-block;
+}
+
+h2{
+    margin-right: 5px;
+    color: rgb(10, 73, 124);
+}
+
+.error{
+    clear: both;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border: 3px solid red;
+    border-radius: 25px;
+    color: red;
+    padding: 15px;
+}

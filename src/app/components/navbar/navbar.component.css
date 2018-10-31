@@ -1,0 +1,43 @@
+.nav-wrapper{
+    width:100%;
+    padding: 5px 0px;
+    background-color: rgb(10, 73, 124);
+    color: white;
+}
+
+.title{
+    width: 80%;
+    display: inline-block;
+}
+
+.button {
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+}
+
+.button button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 120%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #fff;
+    color: rgb(10, 73, 124);
+}
+
+.button button:active{
+    background-color: rgb(224, 224, 224);
+}
+
+.button button:focus {outline:0;}
+
+.version{
+    float: right;
+    margin-right: 40px;
+}

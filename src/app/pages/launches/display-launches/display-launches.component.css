@@ -1,0 +1,41 @@
+.header{
+    background-color:rgb(10, 73, 124);
+    color: #fff;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+table{
+    width: 100%;
+}
+
+.column1{
+    width:75%;
+    text-align: left;
+}
+
+.column2{
+    width:25%;
+    text-align: right;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.grid-row{
+    cursor: pointer;
+}
+
+.grid-row td{
+    padding: 6px 4px;
+}
+
+.colored{
+    background-color: rgba(149, 179, 245, 0.507);
+}
+
+.grid-row:hover{
+    font-size: 105%;
+    background-color: rgb(219, 218, 218);
+}

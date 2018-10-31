@@ -1,0 +1,15 @@
+<div>
+  <div class="card-title">
+    <h3>Detalles del lanzamiento</h3>
+    <hr>
+  </div>
+
+  <div class="card-info">
+    <div class="img-wrapper"><img [src]="launch.image" /></div>
+    <div><h2>Id:</h2> <p>{{launch.id}}</p></div>
+    <div><h2>Nombre:</h2> <p>{{launch.name}}</p></div>
+    <div><h2>Fecha:</h2> <p>{{launch.isostart | date:'dd/MM/yyyy hh:mm'}}</p></div>
+  </div>
+
+  <div class="error" *ngIf="launch.failreason">Motivo de fallo: <small>{{launch.failreason}}</small> </div>
+</div>

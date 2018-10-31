@@ -1,0 +1,11 @@
+<div>
+  <div class="card-title">
+    <h3>Estados de lanzamiento</h3>
+    <hr>
+  </div>
+  <div class="card" *ngFor="let status of statuses">
+    <p class="title">{{status.name}}</p>
+    <p class="description">{{status.description}}</p>
+    <input type="button" value="Ver Estado" (click)="clickOnButton(status.id)" />
+  </div>
+</div>
